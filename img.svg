@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60">
-  <path fill="#AE0F0A" d="m278.6 15.4 4 7.3h8.9L278.8 0l-12.7 22.7h8.7zM295.4 29.7h-9.1l4.1 7.6H267l4-7.6h-8.8l-11.6 20.8h9.4l3.3-6.2h30.9l3.3 6.2h9.5z"></path>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="855bfcb6-134d-473c-9e17-d66f2fb39422"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="2fca3bb8-47ca-413d-93a1-9a5e66531f6e"  >
+</g>
+<g transform="matrix(18.77 0 0 18.77 540 540)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(174,15,10); fill-rule: nonzero; opacity: 1;"  transform=" translate(-278.8, -25.25)" d="M 278.6 15.4 L 282.6 22.7 L 291.5 22.7 L 278.8 0 L 266.1 22.7 L 274.8 22.7 z M 295.4 29.7 L 286.29999999999995 29.7 L 290.4 37.3 L 267 37.3 L 271 29.699999999999996 L 262.2 29.699999999999996 L 250.6 50.5 L 260 50.5 L 263.3 44.3 L 294.2 44.3 L 297.5 50.5 L 307 50.5 z" stroke-linecap="round" />
+</g>
 </svg>
