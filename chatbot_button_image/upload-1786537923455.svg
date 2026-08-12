@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 648 648" role="img" aria-label="Chat icon">
+  <defs>
+    <filter id="roughShadow" x="-35%" y="-35%" width="170%" height="170%">
+      <feTurbulence type="fractalNoise" baseFrequency=".018 .025" numOctaves="3" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="G" result="distorted"/>
+      <feGaussianBlur in="distorted" stdDeviation="20" result="blur"/>
+      <feComponentTransfer in="blur" result="shadow">
+        <feFuncA type="linear" slope=".62"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Rough black halo -->
+  <circle cx="324" cy="324" r="272" fill="none" stroke="#000" stroke-width="25"
+          opacity=".52" filter="url(#roughShadow)"/>
+
+  <!-- Main disk -->
+  <circle cx="324" cy="324" r="252" fill="#f4eeee"/>
+
+  <!-- Speech bubble -->
+  <path d="M214 236
+           H434
+           V386
+           H291
+           L252 418
+           L244 386
+           H214
+           Z"
+        fill="none"
+        stroke="#000"
+        stroke-width="12"
+        stroke-linejoin="round"
+        stroke-linecap="round"/>
+
+  <!-- Dots -->
+  <circle cx="285" cy="313" r="13" fill="#000"/>
+  <circle cx="327" cy="313" r="13" fill="#000"/>
+  <circle cx="369" cy="313" r="13" fill="#000"/>
+</svg>
